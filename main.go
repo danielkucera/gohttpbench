@@ -9,8 +9,8 @@ import "time"
 func main(){
 
 	url := os.Args[1]
-	threads,_ := strconv.Atoi(os.Args[2])
-	status,_ := strconv.Atoi(os.Args[3])
+	status,_ := strconv.Atoi(os.Args[2])
+	threads,_ := strconv.Atoi(os.Args[3])
 
 	cnt := 0
 	lastcnt := 0
